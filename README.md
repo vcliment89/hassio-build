@@ -1,4 +1,4 @@
-# Build environment for Hass.io
+# Build environment for Hass.io in Pine64
 
 This repository contains the relevant files to build [Hass.io](https://github.com/home-assistant/hassio). For the add-ons please check the [Hass.io-Addons](https://github.com/home-assistant/hassio-addons) repository.
 

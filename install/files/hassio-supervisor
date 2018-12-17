@@ -25,7 +25,7 @@ runSupervisor() {
     docker run --name hassio_supervisor \
         $APPARMOR \
         --security-opt seccomp=unconfined \
-        --device /dev/ttyS2:/dev/ttyS2 \
+        --device /dev/ttyACM0:/dev/ttyACM0 \
         -v /var/run/docker.sock:/var/run/docker.sock \
         -v /var/run/dbus:/var/run/dbus \
         -v ${HASSIO_DATA}:/data \
